@@ -10,7 +10,7 @@ npx wrangler d1 create cf-nextjs-auth0
 [[d1_databases]]
 binding = "DB"
 database_name = "cf-nextjs-auth0"
-database_id = "9dd5f8b7-065f-4a51-ab45-17b285ca18de"
+database_id = "<id>"
 ```
 
 3. Create first migration
