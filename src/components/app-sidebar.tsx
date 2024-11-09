@@ -118,17 +118,21 @@ const data = {
           url: "/settings/general",
         },
         {
-          title: "Team",
-          url: "#",
+          title: "SSR call",
+          url: "/settings/test-api-from-page",
         },
         {
-          title: "Billing",
-          url: "#",
+          title: "API client Call SRW",
+          url: "/settings/test-api-from-client",
         },
         {
-          title: "Limits",
-          url: "#",
+          title: "API client Call Fetch",
+          url: "/settings/test-api-from-client-v2",
         },
+        // {
+        //   title: "Limits",
+        //   url: "#",
+        // },
       ],
     },
   ],

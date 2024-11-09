@@ -34,7 +34,7 @@ pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "cf-nextjs-auth0"
-database_id = "9dd5f8b7-065f-4a51-ab45-17b285ca18de"
+database_id = "d591a983-0a71-4c67-869f-8131899fa21f"
 
 # Bind a Durable Object. Durable objects are a scale-to-zero compute primitive based on the actor model.
 # Durable Objects can live for as long as needed. Use these when you need a long-running "server", such as in realtime apps.
