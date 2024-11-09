@@ -60,3 +60,10 @@ npx wrangler pages secret put AUTH0_ISSUER_BASE_URL
 npx wrangler pages secret put AUTH0_CLIENT_ID
 npx wrangler pages secret put AUTH0_CLIENT_SECRET
 ```
+
+
+## Roadmap
+- [ ]  email verification
+- [ ]  password reset
+- [ ]  multi-factor authentication
+- [ ]  role-based access control
