@@ -45,6 +45,13 @@ export default function UserClient() {
 }
 ```
 
+6. for full private app
+```
+src/middleware.ts
+import { withMiddlewareAuthRequired } from '@auth0/nextjs-auth0/edge';
+export default withMiddlewareAuthRequired();
+```
+
 7. Add secrets to wrangler
 ```
 npx wrangler pages secret put AUTH0_SECRET
