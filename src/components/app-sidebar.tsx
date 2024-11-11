@@ -129,6 +129,10 @@ const data = {
           title: "API client Call Fetch",
           url: "/settings/test-api-from-client-v2",
         },
+        {
+          title: "Users",
+          url: "/settings/users",
+        },
         // {
         //   title: "Limits",
         //   url: "#",

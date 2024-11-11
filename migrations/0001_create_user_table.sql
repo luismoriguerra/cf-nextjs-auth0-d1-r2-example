@@ -25,3 +25,5 @@ CREATE TABLE prompts (
     name TEXT NOT NULL,
     prompt TEXT NOT NULL
 );
+
+insert into users (sub, email, name) values ('auth0|6666666666666666', 'test@test.com', 'Test User');
