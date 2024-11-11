@@ -9,6 +9,7 @@ import {
     TableCell,
 } from "@/components/ui/table";
 import DataTableCrud from "@/components/ui/data-table-crud";
+import { Input } from "@/components/ui/input";
 
 export default function UsersPage() {
     const [users, setUsers] = React.useState([]);
@@ -27,6 +28,11 @@ export default function UsersPage() {
     return (
         <div>
             <h1 className="text-2xl font-bold mb-4">Users</h1>
+            <br />
+            <div>
+                <Input placeholder="Search" />
+            </div>
+            <br />
             <DataTableCrud />
             {/* <Table>
                 <TableHeader>
