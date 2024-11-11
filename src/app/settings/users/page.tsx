@@ -8,6 +8,7 @@ import {
     TableHead,
     TableCell,
 } from "@/components/ui/table";
+import DataTableCrud from "@/components/ui/data-table-crud";
 
 export default function UsersPage() {
     const [users, setUsers] = React.useState([]);
@@ -26,7 +27,8 @@ export default function UsersPage() {
     return (
         <div>
             <h1 className="text-2xl font-bold mb-4">Users</h1>
-            <Table>
+            <DataTableCrud />
+            {/* <Table>
                 <TableHeader>
                     <TableRow>
                         <TableHead>ID</TableHead>
@@ -43,7 +45,7 @@ export default function UsersPage() {
                         </TableRow>
                     ))}
                 </TableBody>
-            </Table>
+            </Table> */}
         </div>
     );
 }
